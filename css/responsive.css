@@ -1,7 +1,30 @@
-/* Modificata la larghezza del container */
+/* Tablet */
 @media screen and (max-width: 768px) {
     .container {
         max-width: 100%;
     }
+}/* Modificata la larghezza del container */
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }/* da row a column */
+
+    h1 {
+        font-size: 3.5rem;
+    }/* h1 ingrandito */
+
+    h2 {
+        font-size: 3rem;
+    }/* h2 ingrandito */
+
+    section.why-us {
+        background-color: #222222;
+    }/* cambiato il colore del gb alla sezione "why-us"" */
 }
+
 
