@@ -64,7 +64,8 @@
 
     section.why-us {
         background-color: #222222;
-    } /* cambiato il colore del gb alla sezione "why-us"" */
+        margin-bottom: 0;
+    } /* cambiato il colore del gb alla sezione "why-us"" e tolto il marin bottom */
 }
 
 
