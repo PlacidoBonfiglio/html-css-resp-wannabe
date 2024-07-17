@@ -21,15 +21,16 @@
     h1 {
         font-size: 3.5rem;
     }/* h1 ingrandito */
-
-    .col:last-child .card{
-        margin-bottom: 50px;
-    } /* ogni ultima carta di ogni sezione ha la metà del mb */
-
+    
     h2 {
         font-size: 3rem;
     }/* h2 ingrandito */
 
+    .lessons .col img,
+    .steps .col img {
+        height: 300px;
+    } /* Aumentate dimensioni immagici delle sections "lessons" e "steps" */
+    
     h3 {
         font-size: 2.5rem;
     }/* aumentate dimensioni h3 */
@@ -37,6 +38,10 @@
     p {
         font-size: 1.5rem;
     }/* aumentate dimensioni di p */ 
+    
+    .col:last-child .card{
+        margin-bottom: 50px;
+    } /* ogni ultima carta di ogni sezione ha la metà del mb */
     
     .lessons .col,
     .steps .col,
