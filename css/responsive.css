@@ -1,3 +1,7 @@
+.container {
+    max-width: 100vw;
+}
+
 /* Tablet */
 @media screen and (max-width: 768px) {
     .container {
@@ -18,31 +22,40 @@
         font-size: 3.5rem;
     }/* h1 ingrandito */
 
+    .col:last-child .card{
+        margin-bottom: 50px;
+    } /* ogni ultima carta di ogni sezione ha la metà del mb */
+
     h2 {
         font-size: 3rem;
     }/* h2 ingrandito */
 
     h3 {
         font-size: 2.5rem;
-    }
-
+    }/* aumentate dimensioni h3 */
+    
     p {
         font-size: 1.5rem;
     }/* aumentate dimensioni di p */ 
-
+    
     .lessons .col,
     .steps .col,
-    .why-us .col-right {
+    .why-us .col-right,
+    .why-us .col-left {
         width: 100%;
     } /* aumentata la larghezza delle colonne */
-
+    
     .card {
         margin-bottom: 100px;
-    }/* aggiunto margin-bottom alle crads */
+    } /* aggiunto margin-bottom alle crads */
+    
+    .why-us img {
+        margin-bottom: 50px;
+    } /* mb all'imaggine della section "why-us" */
 
     section.why-us {
         background-color: #222222;
-    }/* cambiato il colore del gb alla sezione "why-us"" */
+    } /* cambiato il colore del gb alla sezione "why-us"" */
 }
 
 
