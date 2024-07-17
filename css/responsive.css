@@ -23,6 +23,10 @@
         margin-top: 5rem;
         margin-bottom: 4rem;
     }/* h1 ingrandito */
+
+    .lessons {
+        padding-bottom: 20px;
+    } /* added padding bottom to lessons section */
     
     h2 {
         font-size: 3rem;
@@ -68,12 +72,13 @@
     } /* rimosso il margine ad h2 "why-us" e aggiunto del padding top */
     
     .why-us img {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     } /* mb all'imaggine della section "why-us" */
 
     section.why-us {
         background-color: #222222;
         margin-bottom: 0;
+        padding-bottom: 200px;
     } /* cambiato il colore del gb alla sezione "why-us"" e tolto il marin bottom */
 }
 
