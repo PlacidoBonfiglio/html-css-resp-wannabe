@@ -26,6 +26,10 @@
         font-size: 2.5rem;
     }
 
+    p {
+        font-size: 1.5rem;
+    }/* aumentate dimensioni di p */ 
+
     .lessons .col,
     .steps .col,
     .why-us .col-right {
