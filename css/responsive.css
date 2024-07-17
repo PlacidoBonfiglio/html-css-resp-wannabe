@@ -37,11 +37,11 @@
     
     h3 {
         font-size: 2.5rem;
-    }/* aumentate dimensioni h3 */
+    } /* aumentate dimensioni h3 */
     
     p {
         font-size: 1.5rem;
-    }/* aumentate dimensioni di p */ 
+    } /* aumentate dimensioni di p */ 
     
     .col:last-child .card{
         margin-bottom: 50px;
@@ -57,6 +57,14 @@
     .card {
         margin-bottom: 100px;
     } /* aggiunto margin-bottom alle crads */
+
+    .steps {
+        margin: 0;
+    } /* Rimosso il margin dalla section "steps" */ 
+
+    .why-us h2 {
+        margin-top: 0;
+    } /* rimosso il margine ad h2 "why-us" */
     
     .why-us img {
         margin-bottom: 50px;
