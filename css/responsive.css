@@ -1,0 +1,7 @@
+/* Modificata la larghezza del container */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
