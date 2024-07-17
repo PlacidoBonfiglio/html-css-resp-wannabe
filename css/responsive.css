@@ -22,6 +22,16 @@
         font-size: 3rem;
     }/* h2 ingrandito */
 
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right {
+        width: 100%;
+    } /* */
+
+    .card {
+        margin-bottom: 100px;
+    }/* */
+
     section.why-us {
         background-color: #222222;
     }/* cambiato il colore del gb alla sezione "why-us"" */
