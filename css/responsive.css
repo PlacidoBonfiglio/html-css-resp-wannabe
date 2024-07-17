@@ -64,7 +64,8 @@
 
     .why-us h2 {
         margin-top: 0;
-    } /* rimosso il margine ad h2 "why-us" */
+        padding-top: 5rem;
+    } /* rimosso il margine ad h2 "why-us" e aggiunto del padding top */
     
     .why-us img {
         margin-bottom: 50px;
