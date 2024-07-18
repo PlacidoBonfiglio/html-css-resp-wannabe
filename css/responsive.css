@@ -1,14 +1,8 @@
-.container {
-    max-width: 100vw;
-}
-
 /* Tablet */
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 100%;
-    }
-}/* Modificata la larghezza del container */
-
+.container {
+    width: 100%;
+    max-width: 1140px;
+}
 
 /* Mobile */
 @media screen and (max-width: 576px) {
@@ -51,10 +45,7 @@
         margin-bottom: 50px;
     } /* ogni ultima carta di ogni sezione ha la metà del mb */
     
-    .lessons .col,
-    .steps .col,
-    .why-us .col-right,
-    .why-us .col-left {
+    .row .col{
         width: 100%;
     } /* aumentata la larghezza delle colonne */
     
